@@ -57,8 +57,12 @@ const featuredSpan = featuredAside[0].getElementsByTagName("span");
 featuredSpan[0].remove();
 
 
+article.remove()
 
+const allH3Ele = document.querySelectorAll("h3");
+const body = document.getElementsByTagName("body");
 
+allH3Ele[0].remove();
+allH3Ele[1].remove();
 
-
-console.log(featuredAside[0]);
+console.log(allH3Ele);
